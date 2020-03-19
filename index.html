@@ -16,40 +16,76 @@ body{
 
 p{
   display: inline-block;
-  background-color: white;
-  padding-left: 0px;
-  padding-right: 0px;
+  margin-bottom: 0;
 }
 
 
 h1{
-  <!-- display: inline-block; -->;
-  border-bottom: double royalblue;
+  border-bottom: double 5px royalblue;
 }
 
 h2{
-  border-bottom: double royalblue;
+  border-bottom: double cornflowerblue;
 }
 
 h3{
   display: inline-block;
-  border-bottom: solid 1px royalblue;
+  border-bottom: solid 1px cornflowerblue;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
+li{
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
 table{
+  width: 100%;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
 td{
+  vertical-align: top;
+  padding-top: 3px;
+  padding-bottom: 3px;
   padding-left: 1em;
 }
 
-hsp{
-  display: inline;
-  padding-left: 0.5em;
+a{
+  text-decoration: none;
+}
+
+.left{
+  margin-left: 1em;
+}
+
+.sp5{
+  padding-right: 0.5em;
+}
+
+.top0{
+  margin-top: 0;
+}
+
+.sp5top0{
+  padding-right: 0.5em;
+  margin-top: 0;
+  margin-left: 1em;
+}
+
+.button{
+  display: inline-block;
+  border: solid 1px royalblue;
+  background: azure;
+  padding: 5px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.last{
+  border-top: double 5px royalblue;
 }
 
 </style>
@@ -58,17 +94,21 @@ hsp{
 <body>
 <h1>数川大輔</h1>
 
-<div>
+<div class="left">
+数川大輔（かずかわだいすけ）<!-- <a>English page</a> -->
+</div>
+
+<div class="left">
 <a href="http://www.math.tohoku.ac.jp/index.html">東北大学理学研究科数学専攻</a> D3，および，<a href="https://www.jsps.go.jp/">日本学術振興会特別研究員</a> DC.
 </div>
 
-<div>
+<div class="left">
 専門は測度距離空間の幾何学・解析学．特に，測度距離空間の収束理論.
 </div>
 
-<p id="mail">
-連絡先: <hsp>daisuke.kazukawa.s6 [at] dc.tohoku.ac.jp,</hsp><hsp>d-kazukawa [at] cr.math.sci.osaka-u.ac.jp</hsp>
-</p>
+<div class="left">
+<p id="mail" class="sp5"> 連絡先:</p><p class="sp5">daisuke.kazukawa.s6 [at] dc.tohoku.ac.jp,</p> <p class="top0">d-kazukawa [at] cr.math.sci.osaka-u.ac.jp</p>
+</div>
 
 <div id="papers">
 <h2>論文・プレプリント</h2>
@@ -78,9 +118,9 @@ hsp{
  <li><a href="https://arxiv.org/abs/1804.00407">Convergence of energy functionals and stability of lower bounds of Ricci curvature via metric measure foliation</a>, to appear in Comm. Anal. Geom.</li>
  <li><a href="https://mathsoc.jp/publication/JMSJ/pdf/JMSJ8146.pdf">Stabilities of rough curvature dimension condition</a>, to appear in J. Math. Soc. Japan. (小澤龍ノ介氏, 鈴木紀彦氏との共著) </li>
 </ol>
-<p>
-博士論文: <hsp>Metric measure foliations, product spaces, and their convergence (測度距離葉層と直積空間およびその収束)</hsp>
-</p>
+
+<p class="sp5top0">博士論文:</p><p class="sp5top0">Metric measure foliations, product spaces, and their convergence (測度距離葉層と直積空間およびその収束)</p>
+
 </div>
 
 <div id="talks">
@@ -117,85 +157,89 @@ hsp{
 
 <div id="prof">
 <h2>プロフィール</h2>
+
+<div>
 <h3>学歴</h3>
 <table>
  <tr>
-  <td><b>2011年（平成23年）4月</b></td> <td>東北大学理学部数学科入学</td>
+  <td width="20%">2011年（平成23年）4月</td> <td width="80%">東北大学理学部数学科入学</td>
  </tr>
  <tr>
-  <td><b>2015年（平成27年）3月</b></td> <td> 同 卒業</td>
+  <td>2015年（平成27年）3月</td> <td> 同 卒業</td>
  </tr>
  <tr>
-  <td><b>2015年（平成27年）4月</b></td> <td> 東北大学大学院理学研究科数学専攻 博士課程前期 入学 (指導教官：塩谷隆教授)</td>
+  <td>2015年（平成27年）4月</td> <td> 東北大学大学院理学研究科数学専攻 博士課程前期 入学 (指導教官：塩谷隆教授)</td>
  </tr>
  <tr>
-  <td><b>2017年（平成29年）3月</b></td> <td> 同 修了</td>
+  <td>2017年（平成29年）3月</td> <td> 同 修了</td>
  </tr>
  <tr>
-  <td><b>2017年（平成29年）4月</b></td> <td> 東北大学大学院理学研究科数学専攻 博士課程後期 入学 (指導教官：塩谷隆教授)</td>
+  <td>2017年（平成29年）4月</td> <td> 東北大学大学院理学研究科数学専攻 博士課程後期 入学 (指導教官：塩谷隆教授)</td>
  </tr>
  <tr>
-  <td><b>2020年（令和 2 年）3月</b></td> <td> 同 修了</td>
+  <td>2020年（令和 2 年）3月</td> <td> 同 修了</td>
  </tr>
 </table>
+</div>
 
+<div>
 <h3>職歴</h3>
 <table>
  <tr>
-  <td><b>2015年（平成27年）4月 - 2019年（令和元年）9月</b></td>
-  <td>東北大学全学教育・理学研究科TA
+  <td width="20%"><p class="top0">2015年4月 - 2019年9月</p></td>
+  <td width="80%"><p class="top0">東北大学全学教育・理学研究科TA</p><p class="top0">(線形代数学, 数学序論, 多様体論, ホモロジー論, ルベーグ積分論, 数理統計学)</p></td>
  </tr>
  <tr>
-  <td></td>
-  <td>(線形代数学, 数学序論, 多様体論, ホモロジー論, ルベーグ積分論, 数理統計学)</td>
- </tr>
- <tr>
-  <td><b>2017年（平成29年）4月 - 2020年（令和 2 年）3月</b></td>
+  <td>2017年4月 - 2020年3月</td>
   <td>日本学術振興会特別研究員 DC1</td>
  </tr>
  <tr>
-  <td><b>2020年（令和 2 年）4月 - </b></td>
+  <td>2020年4月 - </td>
   <td>日本学術振興会特別研究員 PD</td>
  </tr>
 </table>
 <table>
  <tr>
-  <td>アウトリーチ活動</td> <td>高校生のための仙台数学セミナー講師（2017年8月）</td>
+  <td width="20%">アウトリーチ活動</td> <td width="80%">高校生のための仙台数学セミナー講師（2017年8月）</td>
  </tr>
 </table>
+</div>
 
+<div>
 <h3>学会</h3>
 <table>
  <tr>
   <td>日本数学会会員 (会員番号: 11864)</td>
  </tr>
 </table>
-
 <h3>資格</h3>
 <table>
  <tr>
   <td>高等学校教諭専修免許状(数学)</td>
  </tr>
 </table>
+</div>
 
+<div>
 <h3>受賞歴</h3>
 <table>
  <tr>
-  <td><b>2014年4月</b></td> <td>財団法人川井数理科学財団数学最優秀学生賞</td>
+  <td width="75">2014年4月</td> <td>財団法人川井数理科学財団数学最優秀学生賞</td>
  </tr>
  <tr>
-  <td><b>2017年3月</b></td> <td>財団法人川井数理科学財団修士論文川井賞</td>
+  <td>2017年3月</td> <td>財団法人川井数理科学財団修士論文川井賞</td>
  </tr>
  <tr>
-  <td><b>2020年3月</b></td> <td>青葉理学振興会賞</td>
+  <td>2020年3月</td> <td>青葉理学振興会賞</td>
  </tr>
  <tr>
-  <td><b>2020年3月</b></td> <td>財団法人川井数理科学財団博士論文川井賞</td>
+  <td>2020年3月</td> <td>財団法人川井数理科学財団博士論文川井賞</td>
  </tr>
  <tr>
-  <td><b>2020年3月</b></td> <td>東北大学総長賞</td>
+  <td>2020年3月</td> <td>東北大学総長賞</td>
  </tr>
 </table>
+</div>
 
 </div>
 
@@ -207,6 +251,16 @@ hsp{
  <li><a href="https://researchmap.jp/rozawa/">小澤龍ノ介</a></li>
  <li><a href="https://researchmap.jp/read0211602">塩谷隆</a></li>
 </ul>
+</div>
+
+
+<div class="last">
+<p class="sp5"><b>最終更新日: 2020年3月19日</b></p>
+</div>
+
+<div>
+<p class="sp5"><b>サイトマップ</b></p>
+<a href="#papers" class="button">論文</a><a href="#talks" class="button">講演記録</a><a href="#prof" class="button">プロフィール</a><a href="#coworker" class="button">共同研究者</a><a href="#mail" class="button">連絡先</a>
 </div>
 
 </body>
